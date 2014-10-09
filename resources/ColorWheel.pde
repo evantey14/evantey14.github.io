@@ -90,7 +90,7 @@ void draw(){
     case 'w': 
       textSize(24);
       text("Good job! It took you " + tries + " tries.\nClick to start a new game",frameW/2,(frameH+boxH)/2);
-     text(count[ (int)(mouseX/(frameW/12))],100,100);  
+       
       break;
     case 'l': 
       textSize(24);
