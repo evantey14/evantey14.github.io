@@ -16,7 +16,9 @@ int frameW = 800;
 int frameH = 600;
 int boxW = 600;
 int boxH = 500;
+int[] count;
 char mode = ' ';
+int tries=0;
 
 Ball[] list = new Ball[(int)(100*Math.random()+50)];
 
@@ -82,21 +84,27 @@ void draw(){
   switch(mode){
     case 'p': text("Guess the most common color!",frameW/2,(frameH+boxH)/2); break;
     case 'w': 
-      text("Good job! \n Click to start a new game",frameW/2,(frameH+boxH)/2); 
+      textSize(24);
+      text("Good job! It took you " + tries + " tries.\nClick to start a new game",frameW/2,(frameH+boxH)/2);
+     text(count[ (int)(mouseX/(frameW/12))],100,100);  
       break;
     case 'l': 
-      text("Sorry that's incorrect. \n Click to start a new game",frameW/2,(frameH+boxH)/2); 
+      textSize(24);
+      text("Sorry that's incorrect. \n Click to start a new game",frameW/2,(frameH+boxH)/2);
+      
       break;
+      
   }
 }
 
 void mousePressed(){
   if(mode=='p'){
-    int guess = mouseX/(frameW/12);
-    int[] count = new int[12];
+    int guess = (int)(mouseX/(frameW/12));
+    count = new int[12];
     for(int i = 0; i<list.length; i++){
       count[list[i].index]++;
     }
+    tries++;
     mode='w';
     for(int i = 0; i<count.length; i++){
       if(count[guess]<count[i]){
@@ -105,6 +113,9 @@ void mousePressed(){
       }
     }
   } else {
+    if(mode=='w'){
+      tries=0;
+    }
     reset();
     
   }
