@@ -12,6 +12,7 @@ int[][] col = {{255,0,0},//red
                {143,0,255},//purple
                {199,21,133}//red purple
               };
+int[] colorlist;
 int frameW = 800;
 int frameH = 600;
 int boxW = 600;
@@ -65,10 +66,7 @@ void reset(){
 }
 
 void draw(){
-  background(255,255,255);
-  for(int i = 0; i<list.length; i++){
-    list[i].drawBall();
-  }
+  //background(255,255,255);
   int index = (int)(mouseX/(800/12));
   if(index<0){
     index=0;
@@ -76,9 +74,15 @@ void draw(){
   if(index>11){
     index=11;
   }
+  background(color(col[index][0],col[index][1],col[index][2]));
+  for(int i = 0; i<list.length; i++){
+    list[i].drawBall();
+  }
   
   
-  fill(color(col[index][0],col[index][1],col[index][2]));
+  
+  fill(0,0,0);
+  //fill(color(col[index][0],col[index][1],col[index][2]));
   textSize(36); 
   textAlign(CENTER,CENTER);
   switch(mode){

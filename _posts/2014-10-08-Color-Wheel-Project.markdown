@@ -28,4 +28,4 @@ int[][] col = { {255,0,0}, //red
               };
 </code></pre>
 
-To play, move your mouse around the screen and click when you think the color of "Guess the most common color!" is the most common ball color.
+To play, move your mouse around the screen and click when you think the color of the background is the most common ball color.
