@@ -1,0 +1,10 @@
+---
+layout: post
+title: "11/30/14"
+date: 2014-11-30 18:39:00
+categories: project
+
+---
+Happy Thanksgiving! With all the festivities and college deadlines looming, I haven't been able to work much on any of my projects this week. EasyCTF started yesterday, though, so I was able to work on a few questions. Our team, Steam Locomotive, is the same team I've been on for PicoCTF and CSAW. Currently, we're ranked 15th, and time-permitting we hope to finish in the top ten. That said, these last few weeks of school are the busiest and I will be pressed for time.
+
+My main goal for the coming weeks (and especially winter break) is to brush up on data stuctures and algorithms so I will be ready for potential internship interviews. My plan for this is to work through the online interactive Python textbook so I can work on my Python while reviewing data structures. 
