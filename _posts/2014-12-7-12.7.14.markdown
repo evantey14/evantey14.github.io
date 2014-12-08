@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "12/7/15"
+date:   2014-12-7 23:58:28
+categories: project
+
+---
+During class this week, I went through a tutorial on vim called vimtutor. It gave a basic introduction on how to use vim, something I plan on using for the future. Before I started the python interactive data structures book, I wanted to make sure I knew the basics of vim so I could get in practice while I use the book. Since learning shortcuts is all about practice and use, I will likely go through vimtutor a few more times in the coming weeks. As far as what I learned, while I did know most of the shortcuts contained in the tutorial, I did learn some new useful shortcuts like $ signalling an end of line motion. 
+
+On other fronts, I've been rather busy with finals approaching and a SciO competition this Saturday. This means I was unable to attend the UIL competition yesterday despite wishing I could be there. Hopefully when the next two weeks come to a close, I will be able to spend much more time coding.
