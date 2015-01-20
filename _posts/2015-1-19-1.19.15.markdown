@@ -1,0 +1,8 @@
+---
+layout: post
+title: "1/19/15"
+date: 2015-1-19 20:23:00
+categories: project
+
+---
+With the brunt of SciO season about to hit, I've been busier than expected finishing schoolwork and SciO. I haven't been able to start looking through the algorithms textbook as I've missed class for doctor appointments and field trips. Looking at my schedule for the next few weeks, depending on the amount of schoolwork I had, I won't be able to commit a great deal of time to any project until the business that comes along with SciO is over.
