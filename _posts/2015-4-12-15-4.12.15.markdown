@@ -1,0 +1,8 @@
+---
+layout: post
+title: "4/12/15"
+date: 2015-4-12 23:54:00
+categories: project
+
+---
+This week I flew out to Caltech to visit. Though most of the visit was spent trying to see what student life is there, I did get to attend a computer science session where a professor talked about the courses, internship opportunities and research opportunities. The entire computer science department at Caltech is rather small. There are only a handful of professors, which means the courses are a bit limited and research opportunities are also limited.
