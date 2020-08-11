@@ -1,8 +1,0 @@
----
-layout: post
-title: "3/1/15"
-date: 2015-3-1 23:54:00
-categories: project
-
----
-This was filled with several Science Olympiad meetings. Adding to my list of projects, I will be looking into creating calculator functions/programs to do necessary calculations for different SciO events. So far I haven't done any preparation for my interview, but I plan on doing some this week 

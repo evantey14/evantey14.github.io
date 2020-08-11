@@ -1,23 +1,86 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Evan Tey</title>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lato|Lustria">
+  </head>
+  <body>
+    <div id="intro" class="detail">
+      <div id="sun" class="detailObject"></div>
+      <div class="detailTitle"><h1>About Me</h1></div>
+      <div class="detailContent">
+        <p>Hi! My name is Evan, and I'm interested in the intersection of 🔭, 💻, and
+        👨‍🏫.</p>
+        <p>I'm currently...searching for a job, teaching middle school math at a virtual summer
+        program, and working on random side projects.</p>
+        <p>In 2019, I graduated from <a href="http://web.mit.edu/">MIT</a> in <a
+                                        href="https://web.mit.edu/physics/">Physics</a> & <a
+                                        href="https://www.eecs.mit.edu/">CS</a>. During that time, I
+                                    worked at <a href="https://kensho.com/">Kensho</a>, <a
+                                                 href="https://www.projectinvent.org/">Project
+                                                 Invent</a>, <a
+                                                 href="https://www.imperial.ac.uk/astrophysics/centre-for-inference-and-cosmology/">Imperial
+                                                 College London</a>, <a
+                                                 href="https://openlearning.mit.edu/">MIT OOL</a>,
+                                                 and <a
+                                                     href="https://www.indeed.com/">Indeed</a>.</p>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+        <p>
+          When not working on classes, I was heavily involved in <a
+              href="https://esp.mit.edu/">ESP 👩‍🏫</a>, taught and tutored for <a
+              href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/">some 🧮</a>
+          <a
+              href="https://ocw.mit.edu/courses/physics/8-02-physics-ii-electricity-and-magnetism-spring-2007/">classes 💡</a>,
+          participated in <a href="http://designforamerica.mit.edu/dfa/">DFA ⚒️</a>, volunteered for
+          the <a href="https://usaaao.org/">USAAAO 🌠</a>,
+          🚴‍♂️-d <a href="https://mitspokes.wixsite.com/2019">a</a> <a
+                          href="https://www.mitspokes.com/">lot</a>, and played lots of ⚽.
+        </p>
+        <p>I enjoy receiving emails, so if you'd like to get in touch, email me at tey [at] mit
+        [dot] edu! I'll make my best effort to respond within the day.</p>
+      </div>
+    </div>
+    <div id="projects" class="detail">
+      <div id="mercury" class="detailObject"></div>
+      <div class="detailTitle"><h1>Projects</h1></div>
+      <div class="detailContent">
+        <p>🌟 <a href="https://github.com/evantey14/spectra-analyzer">spectra-analyzer</a>:
+        Experimentation with generative unsupervised models for stellar spectra.</p>
+        <p>🃏 <a href="http://proset.evantey.me">proset</a>: A live multiplayer card game much like
+        <a href="https://setwithfriends.com/">Set</a>.</p>
+        <p>😕 <a href="http://consensus.evantey.me">consensus</a>: A live classroom tool for keeping
+        students and teachers in sync by tracking student confusion.</p>
+        <p>🔭 <a href="https://github.com/evantey14/vrt">vrt</a>: A telescope with a VR mode for use
+        on cloudy nights.</p>
+        <p>📃 <a href="https://github.com/evantey14/resume-builder">resume-builder</a>: A modular
+        LaTeX resume builder for quickly making custom resumes for different opportunities.</p>
+        <p>🕸️ <a href="https://github.com/mitesp/espider">espider</a>: The bones for a new ESP
+        website / a practicum in full stack development and making difficult design decisions.</p>
+        <p>🤐 <a href="https://github.com/evantey14/cipher">cipher-solver</a>: A substitution cipher
+        solver based on bigram likelihood through MCMC.</p>
+        <p>📷 <a href="https://github.com/evantey14/3dscanner">3d-scanner</a>: Most of a 3D scanner
+        using a camera, laser, and FPGA.</p>
+        <p>🐫 <a href="https://devpost.com/software/align">align</a>: A haptic feedback system to help correct back posture with flex
+        sensors.</p>
+      </div>
+    </div>
+    <div id="blog" class="detail">
+      <div id="venus" class="detailObject"></div>
+      <div class="detailTitle"><h1>Blog</h1></div>
+      <div class="detailContent">
+        <p>Under construction</p>
+      </div>
+    </div>
+    <div id="lists" class="detail">
+      <div id="earth" class="detailObject"></div>
+      <div class="detailTitle"><h1>Lists</h1></div>
+      <div class="detailContent">
+        <p>I like to keep fun lists of random things, like games, links, etc. Eventually, I plan to
+        put them here.</p>
+      </div>
+    </div>
+  </body>
+</html>

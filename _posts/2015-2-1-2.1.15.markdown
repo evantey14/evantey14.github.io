@@ -1,8 +1,0 @@
----
-layout: post
-title: "2/1/15"
-date: 2015-2-1 10:00:00
-categories: project
-
----
-This week has also been busy, and I've missed a couple days of school for various reasons. I did NACLO on Thursday which was lots of fun. I also was out for other reasons like giving a talk down at Texas State on Friday about the research I did last summer. Between all my work and extracurriculars, like Science Olympiad, I haven't been really able to get into starting another project for a few reasons. First, I have no motivation to start another project. I haven't yet found something I really need or would like to make. One idea, I briefly talked to Neil about was starting on an iOS app for manateams. Both of us would have to learn Objective C and run through some tutorials though so this isn't exactly ideal.

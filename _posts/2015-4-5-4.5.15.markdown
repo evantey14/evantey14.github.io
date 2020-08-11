@@ -1,8 +1,0 @@
----
-layout: post
-title: "4/5/15"
-date: 2015-4-5 23:54:00
-categories: project
-
----
-This week I caught up on lots of assignments I didn't do the past few weeks as a result of SciO, then I spent some more of my time working on SciO. 

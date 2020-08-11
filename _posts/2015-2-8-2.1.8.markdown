@@ -1,8 +1,0 @@
----
-layout: post
-title: "2/8/15"
-date: 2015-2-8 18:54:00
-categories: project
-
----
-This week, we flew to Dayton, Ohio for the Wright State Science Olympiad Invitational. In my astronomy event, I wasn't able to use my calculator because there were no math questions on the test. This said, I still want to figure out how to make my calculator more efficient to use. Lots of time can be lost in looking for equations, clicking on them and navigating to new equations (especially for multipart problems). Solutions to this could include an entirely keyboard organized navigation system. This would have to include ways to copy and paste numbers between equations, while maintaining an equation history. 

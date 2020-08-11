@@ -1,0 +1,96 @@
+/* colors mostly from https://coolors.co/f4f1de-e07a5f-3d405b-81b29a-f2cc8f */
+
+body {
+  margin:0;
+  background: #292B3D;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". detail1 detail1 detail1 ."
+    ". detail2 detail2 detail2 ."
+    ". detail3 detail3 detail3 ."
+    ". detail4 detail4 detail4 .";
+}
+
+h1 {
+  font-family: Lato, sans;
+  font-size: 36px;
+  font-weight: 500;
+  color: #e07a5f;
+}
+
+p {
+  font-family: "Lustria", serif;
+  font-size: 18px;
+  color: #f4f1de;
+}
+
+a {
+  color: #81B29A;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "detailObject detailTitle"
+    ". detailContent";
+  place-items: center stretch;
+}
+
+.detailObject {
+  place-self: center;
+  border-radius: 50%;
+}
+
+.detailTitle {
+  grid-area: detailTitle;
+}
+
+.detailContent {
+  grid-area: detailContent;
+  align-self: start;
+  /*padding-left: 25px; /* this is hacky */
+}
+
+#intro {
+  grid-area: detail1;
+}
+
+#projects {
+  grid-area: detail2;
+}
+
+#blog {
+  grid-area: detail3;
+}
+
+#lists {
+  grid-area: detail4;
+}
+
+#sun {
+  width: 250px;
+  height: 250px;
+  background: #f2cc8f;
+}
+
+#mercury {
+  width: 25px;
+  height: 25px;
+  background: #BC4524;
+}
+
+#venus {
+  width: 50px;
+  height: 50px;
+  background: #81B29A;
+} 
+
+#earth {
+  width: 50px;
+  height: 50px;
+  background: #9DA0BE;
+}

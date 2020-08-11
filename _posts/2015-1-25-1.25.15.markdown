@@ -1,8 +1,0 @@
----
-layout: post
-title: "1/25/15"
-date: 2015-1-25 8:14:00
-categories: project
-
----
-This weekend I've been in Boston for the MIT Science Olympiad Competition. Though I did not do as well as I liked on the Astronomy exam, my calculator served me well. Some improvements that are to be made are mostly concerned with navigation -- the optimized finding and usage of equations. I'm thinking this might be a simple input box that one's cursor is automatically allocated to when not clicked on a equation box. In this box, a user could simply type the name or parts of the name of an equation and the closest equations will come up. A second thing to look into is finding a linkage system so that if say I search for the Stefan-Boltzmann Law, relevant equations or those commmonly used in tandem like Wien's Displacement Law should pop up immediately below (despite not sharing a similar name).

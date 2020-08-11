@@ -1,8 +1,0 @@
----
-layout: post
-title: "3/22/15"
-date: 2015-3-22 23:54:00
-categories: project
-
----
-Sadly, I didn't get the internship I interviewed for. This summer I will likely be going back to be a counselor at camp. Hopefully I'll have some time to work on projects there.

@@ -1,9 +1,0 @@
----
-layout: post
-title: "2/16/15"
-date: 2015-2-16 12:54:00
-categories: project
-
----
-
-After having missed three weekends to Science Olympiad, as well as three Fridays, I had to spend the entirety of this week catching up on makeup work and other homework. This means I wasn't able to work on anything computer related. Over the next few weeks, I plan to start reviewing basic algorithms and data structures in preparation for interviews.

@@ -1,8 +1,0 @@
----
-layout: post
-title: "3/29/15"
-date: 2015-3-29 23:54:00
-categories: project
-
----
-This weekend we competed in the UT Austin regional SciO tournament and got first place. The week was full of busy planning so I wasn't able to work on any CompSci.
